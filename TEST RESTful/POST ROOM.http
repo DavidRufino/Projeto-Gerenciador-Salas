@@ -1,0 +1,9 @@
+POST http://localhost:8081/api/v1/rooms
+Content-Type: application/json
+
+{
+    "name": "Java 2",
+    "date": "10/10/2021",
+    "startHour": "20hs",
+    "endHour": "23hs"
+}

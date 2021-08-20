@@ -1,0 +1,10 @@
+PUT http://localhost:8081/api/v1/rooms/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Java 3",
+    "date": "10/10/2021",
+    "startHour": "20hs",
+    "endHour": "23hs"
+}
